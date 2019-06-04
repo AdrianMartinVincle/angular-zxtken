@@ -1,0 +1,54 @@
+/* Styles for tab labels */
+.mat-tab-label {
+    
+   
+    background-color:transparent;
+   
+    
+    font-weight: 700;
+   
+      border-top:1px solid #ddd;
+   border-left: 1 px solid #ddd;
+    border-right:1px solid #ddd;
+   border-bottom: 1 px solid #ddd;
+   border-top-right-radius: 20px;
+   border-top-left-radius: 20px;
+   
+     margin-right: 5px;
+    
+}
+ .mat-tab-group .mat-tab-label {
+  min-width: 110px;
+  min-height: 40px;
+   border-top:1px solid #ddd;
+   border-left: 1px solid #ddd;
+    border-right:1px solid #ddd;
+   border-bottom: 1px solid #ddd;
+  
+  
+ }
+
+/* Styles for the active tab label */
+.mat-tab-label.mat-tab-label-active {
+   
+   
+    background-color: transparent;
+    color: steelblue;
+   
+    font-weight: 700;
+    border-color: blue;
+    
+    
+    
+}
+
+/* Styles for the ink bar */
+.mat-ink-bar {
+    background-color: green;
+    
+
+}
+
+p {
+  font-family: Lato;
+}
